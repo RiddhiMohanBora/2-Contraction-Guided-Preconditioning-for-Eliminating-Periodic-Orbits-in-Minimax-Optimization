@@ -104,23 +104,6 @@ The numerical comparison table below is reported from the experiments described 
 
 Download the `.m` files into one folder, open that folder in MATLAB, and run:
 
-```matlab
-% Original GDA
-GDA_PhasePortrait_a1over20
-
-% Corrected GDA
-Modified_GDA_PhasePortrait_a1over20_theta05
-```
-
-To save figures to a chosen folder:
-
-```matlab
-GDA_PhasePortrait_a1over20('figures')
-Modified_GDA_PhasePortrait_a1over20_theta05('figures')
-```
-
-Each script generates a publication-style phase portrait and saves **PNG** and **MATLAB `.fig`** versions in the output folder.
-
 ## Reported discrete-time comparison
 
 The modified dynamics are discretized with forward Euler:
