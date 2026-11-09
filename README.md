@@ -88,14 +88,6 @@ The phase-portrait scripts use **\(a=1/20=0.05\)** and, for the modified system,
 - **Original GDA:** The origin is locally asymptotically stable, yet an attracting periodic orbit coexists with it. The annulus \(\mathcal A=\{(x,y):1/4\leq x^2+y^2\leq5\}\) is forward invariant.
 - **Modified GDA:** The Jacobian trace is at most \(-0.2\) throughout the plane, excluding periodic orbits. The figures illustrate trajectories moving toward the origin. The original annulus is shown only as a **visual reference**; it is **not** forward invariant for the modified system.
 
-## MATLAB files
-
-| File | Description |
-| --- | --- |
-| `GDA_PhasePortrait_a1over20.m` | Phase portrait of the original GDA flow, including the attracting periodic orbit and trajectories close to the origin. |
-| `Modified_GDA_PhasePortrait_a1over20_theta05.m` | Phase portrait of the modified flow for \(a=0.05\), \(\theta=0.5\), using comparable initial conditions. |
-
-The numerical comparison table below is reported from the experiments described in the manuscript. A separate benchmark script is needed to reproduce that table; it is **not included among the two phase-portrait scripts listed here**.
 
 ## Requirements and usage
 
